@@ -1,46 +1,28 @@
-# Exploratory Data Analysis (EDA) on Income Dataset
+# COVID-19 Data Analysis with SQL
 # Project Overview
-This project involves performing Exploratory Data Analysis (EDA) on a dataset to understand the factors that influence income levels. The analysis includes examining relationships between various demographic and economic features and the target variable, income. The goal is to uncover patterns, correlations, and insights that can inform further predictive modeling.
-Project Structure
-# The project repository is organized as follows:
-•	data/: Contains the dataset file.
-•	notebooks/: Contains Jupyter notebooks with the EDA.
-•	images/: Contains visualizations and plots generated during the EDA.
-•	README.md: This README file.
-•	requirements.txt: List of Python packages required to run the notebooks.
+This project involves analyzing COVID-19 datasets using SQL to answer various queries and derive meaningful insights about the pandemic's spread, impact, and trends. The analysis focuses on metrics such as total cases, new cases, deaths, hospitalizations, and ICU admissions across different countries and continents over time.
+# Project Structure
+The project repository is organized as follows:
+*	data/: Contains the dataset files (data1.csv and data2.csv).
+*	queries/: Contains SQL scripts for different queries and analyses.
+*	README.md: This README file.
 # Requirements
-To run the Jupyter notebooks and perform the EDA, you will need the following Python packages:
-•	pandas
-•	numpy
-•	matplotlib
-•	seaborn
-•	scikit-learn
-You can install the required packages using pip:
-pip install -r requirements.txt
+*	To run the SQL queries, you will need a SQL database system such as MySQL, PostgreSQL, or SQLite. Ensure that the database system is installed and properly configured.
+# Upload _death .py :
+*	By using these file we can upload our CSV file into MYSQL through cmd.
 
 # Analysis Workflow
-1.	Data Loading and Cleaning:
-*	Load the dataset using pandas.
-*	Handle missing values and incorrect data types.
-*	Perform basic statistical analysis to understand the distribution of data.
-2.	Data Visualization:
-*	Use matplotlib and seaborn to create visualizations such as histograms, bar plots, and box plots.
-*	Visualize the distribution of each feature and its relationship with the target variable, income.
-3.	Feature Engineering:
-*	Create new features based on existing data to enhance the analysis.
-*	Encode categorical variables and handle ordinal data.
-4.	Correlation Analysis:
-*	Calculate correlation coefficients to understand the relationships between features.
-*	Use heatmaps to visualize the correlation matrix.
-5.	Insights and Observations:
-*	Summarize key findings and insights from the EDA.
-*	Identify potential features for predictive modeling.
-
-# Visualizations
-The images/ directory contains various visualizations generated during the EDA. These visualizations help in understanding the distribution of features and their relationships with income. Examples include:
-*	Age distribution by income level.
-*	Workclass distribution.
-*	Education level vs. income.
-* Hours per week vs. income.
+1.	Data Loading:
+*	Import the datasets into your SQL database. This can be done using appropriate SQL commands or a database management tool.
+2.	Data Cleaning and Preparation:
+*	Clean and preprocess the data as needed. This may include handling missing values, converting data types, and ensuring consistency.
+3.	 Exploratory Analysis:
+*	Perform SQL queries to explore the data and extract key insights.
+*	Examples of queries include:
+*	Total and new COVID-19 cases and deaths over time.
+*	Trends in hospital and ICU admissions.
+*	Comparison of COVID-19 metrics across different continents and countries.
+# Results and Insights:
+*	Summarize the findings from your SQL queries.
 
 
