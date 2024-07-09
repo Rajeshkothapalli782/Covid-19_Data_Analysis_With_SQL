@@ -36,3 +36,11 @@ pip install -r requirements.txt
 *	Summarize key findings and insights from the EDA.
 *	Identify potential features for predictive modeling.
 
+# Visualizations
+The images/ directory contains various visualizations generated during the EDA. These visualizations help in understanding the distribution of features and their relationships with income. Examples include:
+*	Age distribution by income level.
+*	Workclass distribution.
+*	Education level vs. income.
+* Hours per week vs. income.
+
+
